@@ -104,6 +104,62 @@ def exp_prof():
         jan/2022-abr/2023
         '''
         )
+    with st.container(border = True):
+        st.markdown(
+            '''
+            **Atividades realizadas:**
+            * Construção de base de dados para acompanhamento de desempenho e produtividade;
+            
+            **Ferramentas utilizadas:** Excel, Google sheet, Software R
+            '''
+            )
+    st.divider()
+    ####
+    
+    #### UFC - Professor
+    st.markdown(
+        '''
+        ### Universidade Federal do Ceará
+        #### Professor Substituto
+        ago/2019-maio/2021
+        '''
+        )
+    with st.container(border = True):
+        st.markdown(
+            '''
+            **Disciplinas ministradas:**
+            * Probabilidade e Estatística;
+            * Análise de Regressão;
+            * Análise de Séries Temporais;
+            * Processos Estocasticos.
+            
+            
+            **Ferramentas utilizadas:** Software R
+            '''
+            )
+    st.divider()
+    ####
+    
+    #### LECO-CAEN/UFC
+    st.markdown(
+        '''
+        ### Laboratório de Econometria e Otimização - CAEN/UFC
+        #### Estatístico (contrato de prestação de serviços)
+        jan/2019-jan/2020
+        '''
+        )
+    with st.container(border = True):
+        st.markdown(
+            '''
+            **Atividades realizadas:**
+            * Elaboração de questionários, via plataforma CAPI Survey Solution; 
+            * Limpeza e pocessamento de bases de dados;
+            * Análise descritiva e inferencial de dados;
+            * Construção de modelos de regressão/machine learning.
+            
+            **Ferramentas utilizadas:** Excel, Software R, CAPI Survey Solution
+            '''
+            )
 
 tab1, tab2, tab3 = st.tabs(['Resumo Geral', 'Experiência Proficional', 'Portifólio'])
 
